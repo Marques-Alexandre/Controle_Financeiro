@@ -34,7 +34,6 @@
 	
 	<%
 		DecimalFormat fmt = new DecimalFormat("#####0.00");
-	
 		ReceitaDao rdao = new ReceitaDao();
 		for (Receita r: rdao.listar()) {
 	%>
@@ -82,7 +81,6 @@
 	
 	<%
 		DecimalFormat fmt2 = new DecimalFormat("#####0.00");
-	
 		DespesaDao ddao = new DespesaDao();
 		for (Despesa d: ddao.listar()) {
 	%>

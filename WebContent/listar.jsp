@@ -33,7 +33,6 @@
 	
 	<%
 		DecimalFormat fmt = new DecimalFormat("###0.00");
-	
 		ReceitaDao rdao = new ReceitaDao();
 		for (Receita r: rdao.listar()) {
 	%>
