@@ -45,7 +45,7 @@
 		  <div class="input-group-prepend">
 		    <span class="input-group-text" id="inputGroup-sizing-default">Valor</span>
 		  </div>
-		  <input type="number" name="valor" value="<%= d.getValor() %>"class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+		  <input type="number" pattern="[0-9]+([,\.][0-9]+)?" min="0" step="any" name="valor" value="<%= d.getValor() %>"class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
 		</div>
 		
 		<div class="text-center">
